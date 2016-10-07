@@ -1,0 +1,21 @@
+<% include common/header.html%>
+<h2><%=title%></h2>
+<table border="1">
+    <tr>
+        <th>_id</th>
+        <th>用户名</th>
+        <th>密码</th>
+    </tr>
+    <tr>
+        <td>
+            <%=view._id%>
+        </td>
+        <td>
+            <%=view.name%>
+        </td>
+        <td>
+            <%=view.password%>
+        </td>
+    </tr>
+</table>
+<% include common/footer.html%>
